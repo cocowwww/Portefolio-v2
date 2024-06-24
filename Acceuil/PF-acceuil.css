@@ -1,0 +1,84 @@
+.En-tête {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    background-color: #e3e0e0;
+}
+
+.En-tête h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.En-tête h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.En-tête button {
+    border: None;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e3e0e0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.En-tête hr {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+body {
+    background-color: #e3e0e0;
+}
+
+.Présentation {
+    position: relative;
+    border: black solide 1px;
+    margin-top: 260px;
+    height: 400px;
+    width: 100%;
+}
+
+.Présentation img {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.Présentation-texte {
+    position: absolute;
+    width: 400px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 200px;
+    right: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: justify;
+    line-height: 1.2;
+    background-color: white;
+    font-size: 22px;
+}
+
+.Présentation-texte .c1 {
+    font-weight: bold;
+}
+
+
+
+
