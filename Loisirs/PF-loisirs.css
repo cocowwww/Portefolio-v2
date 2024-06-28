@@ -1,0 +1,157 @@
+.En-tête {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    background-color: #e3e0e0;
+}
+
+.En-tête h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.En-tête h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.En-tête button {
+    border: None;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e3e0e0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.En-tête hr {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+body {
+    background-color: #e3e0e0;
+}
+
+/* Propre aux loisirs */
+
+.Ping {
+    margin-top: 215px;
+    position: relative;
+    border: solid;
+    background-color: white;
+    height: 470px;
+    width: 72%;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Ping h1 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+}
+
+.Ping video {
+    position: absolute;
+    height: 80%;
+    left: 5%;
+    top: 15%;
+}
+
+.Ping ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.Musique {
+    position: relative;
+    border: solid;
+    background-color: white;
+    height: 470px;
+    width: 72%;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Musique h1 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+}
+
+.Musique video {
+    position: absolute;
+    height: 80%;
+    left: 5%;
+    top: 15%;
+}
+
+.Musique ul {
+    position: absolute;
+    right: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Musique p {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+.Vie {
+    position: relative;
+    border: solid;
+    background-color: white;
+    height: 470px;
+    width: 72%;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Vie h1 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+}
+
+.Vie video {
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+

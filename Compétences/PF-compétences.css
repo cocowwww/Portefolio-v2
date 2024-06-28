@@ -1,0 +1,211 @@
+.En-tête {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    background-color: #e3e0e0;
+}
+
+.En-tête h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.En-tête h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.En-tête button {
+    border: None;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e3e0e0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.En-tête hr {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+body {
+    background-color: #e3e0e0;
+}
+
+/*Propre à compétences */
+
+.Compétences {
+    margin-top: 230px;
+    width: 100%;
+}
+
+.Compétences h1 {
+    text-align: center;
+}
+
+.Compétences-programmation {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    border: solid;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.Compétences-programmation img {
+    position: absolute;
+    height: 40%;
+}
+
+.Compétences-programmation p {
+    position: absolute;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.Compétences-programmation span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Python-img, #Python-texte {
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+#VBA-img, #VBA-texte {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#HTML-img, #HTML-texte {
+    right: 20%;
+    transform: translateX(50%);
+}
+
+
+.Compétences-linguistiques {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    border: solid;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.Compétences-linguistiques img {
+    position: absolute;
+    height: 40%;
+    border: solid 4px;
+}
+
+.Compétences-linguistiques p {
+    position: absolute;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.Compétences-linguistiques span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Francais-img, #Francais-texte {
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+#Anglais-img, #Anglais-texte {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Allemand-img, #Allemand-texte {
+    right: 20%;
+    transform: translateX(50%);
+}
+
+
+
+.Compétences-numériques {
+    position: relative;
+    height: 680px;
+    width: 80%;
+    border: solid;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.Compétences-numériques img {
+    position: absolute;
+    height: 160px;
+}
+
+.Compétences-numériques p {
+    position: absolute;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.Compétences-numériques span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Office-img, #Office-texte {
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+#Autocad-img, #Autocad-texte {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Pléiades-img, #Pléiades-texte {
+    right: 20%;
+    transform: translateX(50%);
+}
+
+#Rhino3D-img, #Rhino3D-texte {
+    left: 35%;
+    transform: translateX(-50%);
+    margin-top: 280px;
+}
+
+#KizeoForms-img, #KizeoForms-texte {
+    right: 35%;
+    transform: translateX(50%);
+    margin-top: 280px;
+}
+
+#Rhino3D-texte, #KizeoForms-texte {
+    margin-top: 460px;
+}
+
+#KizeoForms-img {
+    border-radius: 10px;
+}

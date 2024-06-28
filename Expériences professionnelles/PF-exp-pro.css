@@ -1,0 +1,112 @@
+.En-tête {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    background-color: #e3e0e0;
+}
+
+.En-tête h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.En-tête h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.En-tête button {
+    border: None;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e3e0e0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.En-tête hr {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+body {
+    background-color: #e3e0e0;
+}
+
+/*Propre aux expériences pro */
+
+#EngieSolutions {
+    margin-top: 230px;
+}
+
+.Entreprises {
+    position: relative;
+    height: 480px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.batiment, .logo, .titre-entreprise {
+    position: absolute;
+}
+
+.batiment {
+    z-index: 0;
+    height: 100%;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease
+}
+
+.logo {
+    z-index: 1;
+    height: 20%;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease
+}
+
+.titre-entreprise {
+    z-index: 1;
+    font-weight: bold;
+    font-size: 35px;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease
+}
+
+#Cerema-titre-formation {
+    width: 800px;
+}
+
+#ParlementEuropéen-titre-formation {
+    width: 800px;
+}
+
+#Cerema-logo, #robatherm-logo {
+    height: 15%;
+}
+
+.batiment:hover {
+    opacity: 0.3;  
+} 
+
+.batiment:hover + .logo, .batiment:hover ~ .titre-entreprise {
+    opacity: 1;
+}

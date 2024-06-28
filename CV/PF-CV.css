@@ -1,0 +1,99 @@
+.En-tête {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    background-color: #e3e0e0;
+}
+
+.En-tête h1 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.En-tête h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.En-tête button {
+    border: None;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e3e0e0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.En-tête hr {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+body {
+    background-color: #e3e0e0;
+}
+
+/* Propre au CV */
+
+.CV {
+    margin-top: 230px;
+    text-align: center;
+}
+
+.CV h1 {
+    font-size: 35px;
+    text-align: center;
+    border: solid;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 5px;
+}
+
+.CV p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.CV button {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.CV-Vidéo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CV-Vidéo iframe{
+    position: relative;
+    width: 710px;
+    height: 400px;
+}
+
+
+
+
+
